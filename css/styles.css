@@ -60,6 +60,43 @@ li, a {
     color: var(--btn-color)
 }
 
+.subscribe {
+    background: #212121
+}
+
+input {
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="email"] {
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #F77221;
+    color: #fff;
+}
+
+input[type="submit"]:hover {
+    background: #FAB710;
+}
 
 @media screen and (max-width: 640px ) {
     header {
@@ -70,4 +107,15 @@ li, a {
     .main-image {
         height: 50vh;
     } 
+
+    input[type="email"] {
+        width: 150px;
+        height: 50px;
+    }
+    
+    input[type="submit"] {
+        position: relative;
+        width: 100px;
+        height: 50px;
+    }
 }
