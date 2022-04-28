@@ -98,6 +98,18 @@ input[type="submit"]:hover {
     background: #FAB710;
 }
 
+.cliente-imagen img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+
+.cliente-imagen {
+    display: flex;
+    align-items: center;
+}
+
 @media screen and (max-width: 640px ) {
     header {
         /* background-position: center 40px ; */
