@@ -110,6 +110,9 @@ input[type="submit"]:hover {
     align-items: center;
 }
 
+footer {
+    background-color: #212121;
+}
 @media screen and (max-width: 640px ) {
     header {
         /* background-position: center 40px ; */
